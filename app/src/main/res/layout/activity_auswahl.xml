@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Auswahl">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bt1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Kakteen"
+                android:drawableLeft="@mipmap/i9" />
+
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Blumen"
+                android:drawableLeft="@mipmap/i6" />
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Palmen"
+                android:drawableLeft="@mipmap/i2" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Bonsei"
+                android:drawableLeft="@mipmap/i4" />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Bambus"
+                android:drawableLeft="@mipmap/i5" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Farnen"
+                android:drawableLeft="@mipmap/i8" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sträucher"
+                android:drawableLeft="@mipmap/i1" />
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Gräser"
+                android:drawableLeft="@mipmap/i7" />
+
+            <Button
+                android:id="@+id/bt9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Kräuter"
+                android:drawableLeft="@mipmap/i3" />
+        </TableRow>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

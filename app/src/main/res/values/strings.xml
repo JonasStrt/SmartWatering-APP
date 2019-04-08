@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Smart Watering</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_bluetooth">BluetoothActivity</string>
+    <string name="SendTest">SendTest</string>
+</resources>
